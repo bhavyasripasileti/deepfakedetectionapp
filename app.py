@@ -2,9 +2,8 @@ import streamlit as st
 import tensorflow as tf
 from PIL import Image
 import numpy as np
-from tensorflow.keras.models import load_model
 
-model = load_model('deepfake_model.h5')
+model = tf.keras.models.load_model('deepfake_model.h5')
 
 st.title("Deepfake Face Detection")
 uploaded_file = st.file_uploader("Upload a face image/video", type=["jpg", "png", "mp4"])
