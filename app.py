@@ -4,14 +4,6 @@ from PIL import Image
 import numpy as np
 import cv2
 import tempfile
-import gdown
-import os
-
-model_url = 'https://drive.google.com/uc?id=YOUR_FILE_ID'
-output = 'deepfake_model.h5'
-
-if not os.path.exists(output):
-    gdown.download(model_url, output, quiet=False)
 
 # Load the model once with caching
 @st.cache_resource
