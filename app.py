@@ -8,7 +8,7 @@ import tempfile
 # Load the model once with caching
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("deepfake_model.h5")
+    return tf.keras.models.load_model("new_model.h5")
 
 model = load_model()
 
