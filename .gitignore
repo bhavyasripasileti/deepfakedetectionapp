@@ -1,0 +1,17 @@
+venv/
+ENV/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*.so
+*.h5
+*.ckpt
+*.pb
+checkpoint/
+saved_model/
+.streamlit/
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+*.log
