@@ -1,17 +1,24 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
 venv/
 ENV/
 env/
 .venv/
-__pycache__/
-*.py[cod]
-*.so
+
+# Model files
 *.h5
 *.ckpt
 *.pb
 checkpoint/
 saved_model/
+
+# Streamlit files
 .streamlit/
+
+# OS-specific files
 .DS_Store
 Thumbs.db
-.ipynb_checkpoints/
-*.log
